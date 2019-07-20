@@ -1,0 +1,29 @@
+.auth-page {
+  background: $theme-gradient;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+
+  .card {
+    &.image-card {
+      border: none;
+      background: none;
+      border-radius: 0;
+    }
+
+    &.login-card {
+      height: 70vh;
+      border: none;
+      border-radius: 0;
+      .btn {
+        border-radius: 4px;
+      }
+
+      .line {
+        height: 1px;
+        border-top: 1px solid #eee;
+      }
+    }
+  }
+}

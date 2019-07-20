@@ -17,3 +17,8 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$theme-color-main: rgb(178, 202, 145);
+$theme-color-sub: rgb(233, 239, 213);
+$theme-color-second: rgb(215, 232, 164);
+$theme-gradient: linear-gradient(0deg, $theme-color-main, $theme-color-sub);
+
