@@ -1,7 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('content')
 <div class="container">
+    <div class="app-name">
+        <p>ハビログ</p>
+    </div>
+    <div class="register-link">
+        <a href="#">新規登録</a>
+    </div>
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

@@ -16,13 +16,62 @@
       height: 70vh;
       border: none;
       border-radius: 0;
+
       .btn {
         border-radius: 4px;
+
+        &.btn-primary {
+          background-color: $theme-color-main;
+          border: none;
+        }
       }
 
       .line {
         height: 1px;
         border-top: 1px solid #eee;
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+
+    a {
+      color: $white;
+      margin-left: 12px;
+      margin-right: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  .app-name {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      color: #0d8857;
+    }
+  }
+
+  .register-link {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    a {
+      font-size: 22px;
+      font-weight: lighter;
+      color: #0d8857;
+      text-decoration: none;
+      &:hover {
+        color: #0dc489;
       }
     }
   }

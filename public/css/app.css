@@ -10668,8 +10668,59 @@ a.text-dark:focus {
   border-radius: 4px;
 }
 
+.auth-page .card.login-card .btn.btn-primary {
+  background-color: #b2ca91;
+  border: none;
+}
+
 .auth-page .card.login-card .line {
   height: 1px;
   border-top: 1px solid #eee;
+}
+
+.auth-page .footer {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.auth-page .footer a {
+  color: #fff;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-page .app-name {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.auth-page .app-name p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d8857;
+}
+
+.auth-page .register-link {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.auth-page .register-link a {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #0d8857;
+  text-decoration: none;
+}
+
+.auth-page .register-link a:hover {
+  color: #0dc489;
 }
 
