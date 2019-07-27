@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer d-flex justify-content-center">
+        <div class="footer d-block d-md-flex justify-content-center">
             <a href="#">ハビログについて</a>
             <a href="#">プライバシーポリシー</a>
             <a href="#">利用規約</a>
